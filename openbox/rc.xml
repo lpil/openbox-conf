@@ -966,7 +966,7 @@
     # each rule element can be left out or set to 'default' to specify to not
     # change that attribute of the window
 
-    <decor>no</decor>
+    <decor>yes</decor>
     # enable or disable window decorations
 
     <shade>no</shade>
@@ -1018,6 +1018,10 @@
 
   # end of the example
 -->
+    <application class="*">
+         <decor>no</decor>
+    </application>
+
     <application name="gmessage">
       <decor>no</decor>
       <shade>no</shade>
