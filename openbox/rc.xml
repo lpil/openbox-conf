@@ -455,7 +455,8 @@
           <enabled>true</enabled>
           <name>dmenu-bind</name>
         </startupnotify>
-        <command>~/.config/dmenu/dmenu-bind.sh</command>
+        <command>dmenu_run</command>
+        <!-- <command>~/.config/dmenu/dmenu-bind.sh</command> -->
       </action>
     </keybind>
     <keybind key="A-F2">
