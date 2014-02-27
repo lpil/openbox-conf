@@ -223,6 +223,16 @@
       </action>
     </keybind>
 
+    <keybind key="W-S-m">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>mpd playing notification</name>
+        </startupnotify>
+        <command>sh -c "notify-send -t 6000 \"$(mpc -f \"%artist% - %title%[ ([%album% ][%date%])]\"| head -2)\""</command>
+      </action>
+    </keybind>
+
     <keybind key="XF86Mail">
       <action name="Execute">
         <startupnotify>

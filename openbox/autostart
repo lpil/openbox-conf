@@ -76,10 +76,6 @@ xset b off &
 ## Run the conky
 conky -q &
 
-#######################
-#LOUIS' RUBBISH STUFF!#
-#######################
-
 nice --10 mpd &
 
 ## redshift - adjusts screen colour temp based on sun's position
